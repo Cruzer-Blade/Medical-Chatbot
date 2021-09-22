@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medical Chatbot</title>
+    <link rel="stylesheet" href="../fonts/Brutal.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title-bar">
+        Medical Chatbot
+    </div>
+
+    <div id="chat-container">
+        <div class="chatbot-chat-parent">
+            <div class="chatbot-chat-avatar"></div>
+            <div class="chatbot-chat-bubble">
+                Hello! Tell me if you have any medical issues...
+            </div>
+        </div>
+    </div>
+
+    <div id="persistent-bar">
+        <input id="user-input" autofocus type="text" placeholder="Type here...">
+
+        <div id="chatbot-send" class="icon-btn">
+            <img id="mic-btn" src="../res/mic_btn.svg" style="display: none;" type="icon" alt="Speak">
+            <span style="margin-left: 10px;">
+            <img id="send-btn" src="../res/send_btn.svg" type="icon" alt="Send">
+        </div>
+    </div>
+
+    <script src="func_lib.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

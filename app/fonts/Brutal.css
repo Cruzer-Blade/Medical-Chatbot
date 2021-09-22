@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Brutal';
+    font-style: normal;
+    font-weight: 400;
+    src: local('BrutalTypeW00-Regular'), local('Brutal-Regular'), url(Brutal-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Brutal';
+    font-style: normal;
+    font-weight: 500;
+    src: local('BrutalTypeW00-Medium'), local('Brutal-Medium'), url(Brutal-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Brutal';
+    font-style: normal;
+    font-weight: 700;
+    src: local('BrutalTypeW00-Black'), local('Brutal-Bold'), url(Brutal-Black.ttf);
+}

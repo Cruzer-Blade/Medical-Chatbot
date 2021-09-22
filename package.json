@@ -1,0 +1,17 @@
+{
+    "name": "medical-chatbot",
+    "description": "Medical Chatbot implemented in JS using Electron.js",
+    "authors": "author",
+    "version": "1.0.0",
+    "main": "app.js",
+    "dependencies": {
+        "electron": "^8.1.0",
+        "electron-spawn": "^5.0.0",
+        "electron-speech": "^1.0.7"
+    },
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder",
+        "pack": "electron-builder --dir"
+    }
+}

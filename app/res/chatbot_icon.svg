@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Group_11" data-name="Group 11" transform="translate(-530 -357)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="40" cy="40" r="40" transform="translate(530 357)" fill="rgba(169,0,255,0.3)"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(0 1)">
+      <g id="ic_chat_bubble_outline_48px" transform="translate(543 370)">
+        <path id="Path_5" data-name="Path 5" d="M0,0H54.243V54.243H0Z" fill="none"/>
+        <path id="Path_6" data-name="Path 6" d="M44.682,4H8.52A4.519,4.519,0,0,0,4,8.52V49.2l9.041-9.041H44.682a4.519,4.519,0,0,0,4.52-4.52V8.52A4.519,4.519,0,0,0,44.682,4Zm0,31.642H13.041l-4.52,4.52V8.52H44.682Z" transform="translate(0.52 0.52)" fill="#b0f"/>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(-40 -56)">
+        <line id="Line_1" data-name="Line 1" y1="3.387" x2="3.387" transform="translate(597.5 441.5)" fill="none" stroke="#b0f" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_2" data-name="Line 2" x1="3.387" y1="3.387" transform="translate(600.887 441.5)" fill="none" stroke="#b0f" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(-21.2 -56)">
+        <line id="Line_1-2" data-name="Line 1" y1="3.387" x2="3.387" transform="translate(597.5 441.5)" fill="none" stroke="#b0f" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_2-2" data-name="Line 2" x1="3.387" y1="3.387" transform="translate(600.887 441.5)" fill="none" stroke="#b0f" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <path id="Path_7" data-name="Path 7" d="M547.105,349.058A13.039,13.039,0,0,0,554,350.78c2.467,0,5.6-.775,6.891-1.723" transform="translate(16 48.781)" fill="none" stroke="#b0f" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

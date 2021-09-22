@@ -1,0 +1,234 @@
+:root {
+    --accent-color: #bb00ff;
+}
+
+body {
+    font-family: 'Brutal';
+    background: #121212;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Brutal';
+    background: #ffffff0d;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: -webkit-fill-available;
+    text-align: left;
+    margin-top: 15px;
+    outline: none;
+    
+    transition: all 250ms ease-out;
+}
+
+button:hover {
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    background-color: #a900ff1a;
+}
+
+#title-bar {
+    background: #aa00ff4d;
+    color: var(--accent-color);
+    font-size: 25px;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+#chat-container {
+    padding: 0 25px;
+    overflow-y: scroll;
+    position: absolute;
+    width: 89%;
+    bottom: 60px;
+    top: 70px;
+}
+
+#persistent-bar {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    border-bottom-left-radius: var(--window-border-radius);
+    border-bottom-right-radius: var(--window-border-radius);
+
+    height: 50px;
+    background: #ffffff0d;
+}
+
+#user-input {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 90%;
+}
+
+input {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: none;
+    caret-color: var(--caret-color);
+
+    font-family: 'Brutal';
+    font-size: 20px;
+}
+
+#mic-btn {
+    transition: all 250ms ease-out;
+}
+
+.mic-blink {
+    animation: mic_blink_anim 250ms ease-out;
+}
+
+@keyframes mic_blink_anim {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#chatbot-send, .chatbot-send-disabled {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+
+    transition: all .15s ease-in;
+}
+
+.ico-btn {
+    padding: 2px;
+    border-radius: 100px;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    transition: all .2s ease-in;
+}
+
+.ico-btn:hover {
+    opacity: 0.75;
+    background: #ffffff13;
+}
+
+.ico-btn:active {
+    background: #ffffff38;
+}
+
+img[type="icon"] {
+    height: 30px;
+    width: 30px;
+}
+
+.chatbot-chat-parent {
+    margin: 10px 0;
+}
+
+.chatbot-chat-avatar {
+    content: url(../res/chatbot_icon.svg);
+    display: inline-block;
+    height: 45px;
+}
+
+.chatbot-chat-bubble {
+    background: #ffffff0d;
+    color: #ffffff;
+    border: 1px solid #70707080;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    max-width: 210px;
+    display: inline-grid;
+    vertical-align: top;
+}
+
+.user-chat-parent {
+    margin: 10px 0;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.user-chat-avatar {
+    content: url(../res/user_icon.svg);
+    display: inline-block;
+    height: 45px;
+}
+
+.user-chat-bubble {
+    background: #ffffff0d;
+    color: #ffffff;
+    border: 1px solid #70707080;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    max-width: 210px;
+    display: inline-grid;
+    vertical-align: top;
+}
+
+.fade-in-from-bottom {
+    animation: fade_in_from_bottom_anim 250ms;
+}
+
+@keyframes fade_in_from_bottom_anim {
+    from {
+        padding-top: 15px;
+        opacity: 0;
+    }
+
+    to {
+        padding-top: inherit;
+        opacity: 1;
+    }
+}
+
+/********** SCROLLBAR **********/
+
+/* Size & Background */
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #0D0D0D;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .15);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+/* Handle on click */
+::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, .1);
+}
+
+/* Appearance of scrollbar corner */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
